@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>happystore</display-name>
+	<servlet>
+		<servlet-name>CodeServlet</servlet-name>
+		<servlet-class>user.servlet.CodeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>user.servlet.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BaseServlet</servlet-name>
+		<servlet-class>user.servlet.BaseServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ProductServlet</servlet-name>
+		<servlet-class>user.servlet.ProductServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BusinessServlet_b</servlet-name>
+		<servlet-class>business.servlet.BusinessServlet_b</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>user.servlet.IndexServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CartServlet</servlet-name>
+		<servlet-class>user.servlet.CartServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CategoryServlet</servlet-name>
+		<servlet-class>user.servlet.CategoryServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>OrderServlet</servlet-name>
+		<servlet-class>user.servlet.OrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AddProductServlet</servlet-name>
+		<servlet-class>business.servlet.AddProductServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>EditProductServlet</servlet-name>
+    <servlet-class>business.servlet.EditProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BusinessServlet_c</servlet-name>
+    <servlet-class>business.servlet.BusinessServlet_c</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BusinessServlet_a</servlet-name>
+    <servlet-class>business.servlet.BusinessServlet_a</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ALoginServlet</servlet-name>
+    <servlet-class>admin.servlet.ALoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindUserServlet</servlet-name>
+    <servlet-class>admin.servlet.AFindUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeStateServlet</servlet-name>
+    <servlet-class>admin.servlet.ChangeStateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindUserByStateServlet</servlet-name>
+    <servlet-class>admin.servlet.AFindUserByStateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.AFindBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeStarServlet</servlet-name>
+    <servlet-class>admin.servlet.ChangeStarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindJYBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.AFindJYBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StopBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.StopBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OpenBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.OpenBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindSQBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.AFindSQBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OKBusinessServlet</servlet-name>
+    <servlet-class>admin.servlet.OKBusinessServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindCategoryServlet</servlet-name>
+    <servlet-class>admin.servlet.category.AFindCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCategoryUIServlet</servlet-name>
+    <servlet-class>admin.servlet.category.UpdateCategoryUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCategoryServlet</servlet-name>
+    <servlet-class>admin.servlet.category.DeleteCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCategoryServlet</servlet-name>
+    <servlet-class>admin.servlet.category.UpdateCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <servlet-class>admin.servlet.category.AddCategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AFindPromotionServlet</servlet-name>
+    <servlet-class>admin.servlet.promotion.AFindPromotionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddPromotionServlet</servlet-name>
+    <servlet-class>admin.servlet.promotion.AddPromotionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePromotionUIServlet</servlet-name>
+    <servlet-class>admin.servlet.promotion.UpdatePromotionUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeletePromotionServlet</servlet-name>
+    <servlet-class>admin.servlet.promotion.DeletePromotionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePromotionServlet</servlet-name>
+    <servlet-class>admin.servlet.promotion.UpdatePromotionServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/500.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/404.jsp</location>
+	</error-page>
+
+	<servlet-mapping>
+		<servlet-name>CodeServlet</servlet-name>
+		<url-pattern>/user/Code</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddProductServlet</servlet-name>
+		<url-pattern>/business/AddProduct</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/User</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BaseServlet</servlet-name>
+		<url-pattern>/Base</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProductServlet</servlet-name>
+		<url-pattern>/Product</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern>/user/Index</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CartServlet</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CategoryServlet</servlet-name>
+		<url-pattern>/Category</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>OrderServlet</servlet-name>
+		<url-pattern>/Order</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BusinessServlet_b</servlet-name>
+		<url-pattern>/Business_Pro</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditProductServlet</servlet-name>
+    <url-pattern>/business/EditProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusinessServlet_c</servlet-name>
+    <url-pattern>/BusinessServlet_c</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BusinessServlet_a</servlet-name>
+    <url-pattern>/BusinessServlet_a</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ALoginServlet</servlet-name>
+    <url-pattern>/admin/ALogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindUserServlet</servlet-name>
+    <url-pattern>/admin/AFindUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeStateServlet</servlet-name>
+    <url-pattern>/admin/ChangeStateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindUserByStateServlet</servlet-name>
+    <url-pattern>/admin/AFindUserByState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindBusinessServlet</servlet-name>
+    <url-pattern>/admin/AFindBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeStarServlet</servlet-name>
+    <url-pattern>/admin/ChangeStar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindJYBusinessServlet</servlet-name>
+    <url-pattern>/admin/AFindJYBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StopBusinessServlet</servlet-name>
+    <url-pattern>/admin/StopBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpenBusinessServlet</servlet-name>
+    <url-pattern>/admin/OpenBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindSQBusinessServlet</servlet-name>
+    <url-pattern>/admin/AFindSQBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OKBusinessServlet</servlet-name>
+    <url-pattern>/admin/OKBusiness</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindCategoryServlet</servlet-name>
+    <url-pattern>/admin/AFindCategory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCategoryUIServlet</servlet-name>
+    <url-pattern>/admin/updateCategoryUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCategoryServlet</servlet-name>
+    <url-pattern>/admin/deleteCategory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCategoryServlet</servlet-name>
+    <url-pattern>/admin/updateCategory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <url-pattern>/admin/addCategory</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AFindPromotionServlet</servlet-name>
+    <url-pattern>/admin/AFindPromotion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPromotionServlet</servlet-name>
+    <url-pattern>/admin/addPromotion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePromotionUIServlet</servlet-name>
+    <url-pattern>/admin/updatePromotionUI</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePromotionServlet</servlet-name>
+    <url-pattern>/admin/deletePromotion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePromotionServlet</servlet-name>
+    <url-pattern>/admin/updatePromotion</url-pattern>
+  </servlet-mapping>
+
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>user.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
